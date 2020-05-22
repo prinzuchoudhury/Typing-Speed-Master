@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" >
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	<title>Speed Tester</title>
+</head>
+<body>
+<div>
+	<div class="header">
+		<div class="logo_container">
+			<h1>SPEED<span> TESTER</span></h1>
+		</div>
+	</div>
+
+	<!--word $ input-->
+	<div id='parent'>
+		<div  class="a">
+			<p class="load">Type The Given Word Within <span class="text-success"
+					id="seconds">5</span> Seconds:</p> </div>
+			<div class="b"> <h2 id="current-word">hello</h2>  </div>
+			<div class="c"><input type="text" size="50"  class="form-control" placeholder="Start typing....!" id="word-input" autofocus> </div>
+			<div class="d"> <h4 id="message"></h4> </div>
+			<!--Time and score-->
+				<div class="e">
+					<h3>Time Left:
+						<span id="time">0</span>
+					</h3>
+					<h3>Score:
+						<span id="score">0</span>
+					</h3>
+				</div>
+
+			<!--Instructions-->
+					<div class="f">
+						<fieldset class="legend1">
+							<legend ><h3>Instructions</h3></legend>
+							<p class="legend2">Type each word in the given amount of seconds to score. To play again, just type the current word. Your score will reset
+							</p>
+						</fieldset>
+					</div>
+		</div>
+</div>
+
+
+
+	<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
